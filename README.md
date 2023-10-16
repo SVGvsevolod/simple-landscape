@@ -1,3 +1,5 @@
+[ [README на русском](https://github.com/SVGvsevolod/simple-landscape/blob/main/README_ru.md) ]
+
 # Simple Landscape
 JavaScript function that creates a canvas with landscape animation. It creates random number of clouds that consists of circles that forms those clouds visually, number of dandelions on ground and its flocks that comes out and when dandelion reaches out of flocks only stem of dandelion remains. When clouds go out of bounds to the right, new ones appear from the left, but unfortunately dandelions remains as stems.
 
@@ -15,15 +17,15 @@ This was a laboratory(practical) work for Computer Graphics discipline in univer
 
 2. Write a code that calls `sl` function with specified parameters
 
-- `target` is the element in the document where You want to put the canvas
-- The last parameter is the function for `onresize` event. Define it in case if you need the canvas to be adaptable to window size.
-
 ```js
 sl(target, width, height, (canvas, event) => {
     canvas.width = width;
     canvas.height = height;
 });
 ```
+
+- `target` is the element in the document where You want to put the canvas
+- The last parameter is the function for `onresize` event. Define it in case if you need the canvas to be adaptable to window size.
 
 ### As bundle-able module
 
