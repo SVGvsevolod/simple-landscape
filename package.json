@@ -1,0 +1,16 @@
+{
+    "author": "Vsevolod S.V.G Subbotkin",
+    "name": "simple-landscape",
+    "description": "JavaScript function that creates a canvas with landscape animation.",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/SVGvsevolod/simple-landscape.git"
+    },
+    "keywords": [
+        "html5",
+        "canvas"
+    ],
+    "browser": "sl.min.js",
+    "module": "sl.es.js"
+}
